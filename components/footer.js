@@ -1,5 +1,5 @@
 import Logo from 'components/logo'
-import { useLayoutEffect } from 'react'
+// import { useLayoutEffect } from 'react'
 
 const Footer = () => (
   <footer>
