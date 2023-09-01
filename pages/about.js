@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import Postbody from 'components/post-body'
@@ -12,6 +13,10 @@ import eyecatch from 'images/about.jpg'
 
 const About = () => (
   <Container>
+    <Head>
+      <title>アバウト</title>
+    </Head>
+
     <Hero title='About' subtitle='About development activities' />
 
     <figure>
