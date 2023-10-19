@@ -1,7 +1,7 @@
 import styles from 'styles/post-body.module.css'
 
-const Postbody = ({ children }) => {
+const PostBody = ({ children }) => {
   return <div className={styles.stack}>{children}</div>
 }
 
-export default Postbody
+export default PostBody

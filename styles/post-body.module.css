@@ -2,13 +2,13 @@
   margin-top: var(--stack-space, 1.5em);
 }
 
-.stack2,
-.stack3 {
+.stack h2,
+.stack h3 {
   --stack-space: 2em;
 }
 
-.stack2 + *,
-.stack3 + * {
+.stack h2 + *,
+.stack h3 + * {
   --stack-space: 0.8em;
 }
 
