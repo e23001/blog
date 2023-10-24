@@ -4,7 +4,9 @@ import Footer from 'components/footer'
 const Layout = ({ children }) => (
   <>
     <Header />
+
     <main>{children}</main>
+
     <Footer />
   </>
 )
